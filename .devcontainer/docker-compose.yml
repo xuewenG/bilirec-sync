@@ -1,0 +1,12 @@
+services:
+  main:
+    build:
+      context: ..
+      dockerfile: ./.devcontainer/Dockerfile
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+    volumes:
+      - ../..:/workspaces
+      - /etc/localtime:/etc/localtime

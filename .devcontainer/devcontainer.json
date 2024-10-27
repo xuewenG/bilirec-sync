@@ -1,0 +1,13 @@
+{
+  "name": "App-Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "main",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+    }
+  },
+  "postCreateCommand": "",
+  "remoteUser": "root"
+}
